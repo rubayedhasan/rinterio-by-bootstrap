@@ -145,6 +145,12 @@ nav .navbar-brand {
   font-size: 1.125rem;
   line-height: 26px;
 }
+.top-40 {
+  top: -60px;
+}
+.start-60 {
+  left: -60px;
+}
 
 /* responsive styles for all devices  */
 /* xs devices */
