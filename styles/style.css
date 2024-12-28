@@ -77,9 +77,41 @@ nav .navbar-brand {
   font-size: 1.25rem;
   background-color: #abef5f;
 }
+.navbar-btn-unit .booking-btn .brand-mark {
+  margin-bottom: 0;
+}
 .navbar-btn-unit .booking-btn .arrow {
   color: #ffffff;
   background-color: #1c1c1c;
+}
+
+/* banner section styles  */
+#banner {
+  margin-top: 50px;
+}
+
+#banner .banner-title {
+  color: #212121;
+  font-size: 4rem;
+  margin-bottom: 24px;
+}
+
+#banner .banner-description {
+  width: 75%;
+  margin: 0 auto 32px;
+  color: #494949;
+  font-size: 1.125rem;
+  line-height: 26px;
+}
+
+#banner .view-btn {
+  color: #212121;
+  font-size: 20px;
+  background-color: rgba(171, 239, 95, 0.5);
+}
+
+#banner .view-btn .brand-mark {
+  margin-bottom: 0;
 }
 
 /* responsive styles for all devices  */
@@ -97,6 +129,26 @@ nav .navbar-brand {
   .navbar-nav .nav-item .nav-link {
     font-size: 1rem;
   }
+
+  /* banner section styles  */
+  #banner {
+    margin-top: 32px;
+  }
+  #banner .banner-title {
+    font-size: 1.75rem;
+    margin-bottom: 15px;
+  }
+  #banner .banner-description {
+    width: 100%;
+    margin: 0 auto 21px;
+    font-size: 1rem;
+    line-height: 24px;
+  }
+
+  #banner .view-btn {
+    width: 100%;
+    justify-content: center;
+  }
 }
 
 /* sm devices  */
@@ -113,6 +165,24 @@ nav .navbar-brand {
   .navbar-nav .nav-item .nav-link {
     font-size: 1rem;
   }
+  /* banner section styles  */
+  #banner {
+    margin-top: 32px;
+  }
+  #banner .banner-title {
+    font-size: 1.75rem;
+    margin-bottom: 15px;
+  }
+  #banner .banner-description {
+    width: 100%;
+    margin: 0 auto 21px;
+    font-size: 1rem;
+    line-height: 24px;
+  }
+  #banner .view-btn {
+    width: 100%;
+    justify-content: center;
+  }
 }
 
 /* md devices  */
@@ -125,6 +195,19 @@ nav .navbar-brand {
   /* nav section style  */
   nav .navbar-brand {
     font-size: 1.75rem;
+  }
+
+  /* banner section styles  */
+  #banner {
+    margin-top: 48px;
+  }
+  #banner .banner-title {
+    font-size: 2.25rem;
+    margin-bottom: 18px;
+  }
+  #banner .banner-description {
+    width: 95%;
+    margin: 0 auto 25px;
   }
 }
 
