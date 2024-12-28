@@ -81,3 +81,61 @@ nav .navbar-brand {
   color: #ffffff;
   background-color: #1c1c1c;
 }
+
+/* responsive styles for all devices  */
+/* xs devices */
+@media screen and (max-width: 575.98px) {
+  /* header section styles  */
+  header {
+    padding: 32px 0 40px;
+  }
+
+  /* nav section style  */
+  nav .navbar-brand {
+    font-size: 1.75rem;
+  }
+  .navbar-nav .nav-item .nav-link {
+    font-size: 1rem;
+  }
+}
+
+/* sm devices  */
+@media screen and (min-width: 576px) and (max-width: 767.98px) {
+  /* header section  */
+  header {
+    padding: 32px 0 40px;
+  }
+
+  /* nav section style  */
+  nav .navbar-brand {
+    font-size: 1.75rem;
+  }
+  .navbar-nav .nav-item .nav-link {
+    font-size: 1rem;
+  }
+}
+
+/* md devices  */
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+  /* header section  */
+  header {
+    padding: 40px 0 72px;
+  }
+
+  /* nav section style  */
+  nav .navbar-brand {
+    font-size: 1.75rem;
+  }
+}
+
+/* lg devices  */
+@media screen and (min-width: 992px) and (max-width: 1199.9px) {
+}
+
+/* xl devices  */
+@media screen and (min-width: 1200px) and (max-width: 1399.98px) {
+}
+
+/* xxl devices  */
+@media screen and (min-width: 1400px) {
+}
