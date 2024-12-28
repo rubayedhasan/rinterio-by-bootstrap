@@ -205,6 +205,13 @@ nav .navbar-brand {
   line-height: 26px;
 }
 
+/* portfolio section styles  */
+#portfolio {
+  padding-top: 100px;
+  margin-top: 100px;
+  background-color: #ffffff;
+}
+
 /* responsive styles for all devices  */
 /* xs devices */
 @media screen and (max-width: 575.98px) {
@@ -306,6 +313,12 @@ nav .navbar-brand {
   #work-process .work-card-text {
     font-size: 1rem;
   }
+
+  /* portfolio section  */
+  #portfolio {
+    background-color: transparent;
+    margin-top: 40px;
+  }
 }
 
 /* sm devices  */
@@ -401,6 +414,11 @@ nav .navbar-brand {
   #work-process .work-card-text {
     font-size: 1rem;
   }
+  /* portfolio section  */
+  #portfolio {
+    margin-top: 40px;
+    background-color: transparent;
+  }
 }
 
 /* md devices  */
@@ -488,6 +506,12 @@ nav .navbar-brand {
   }
   #work-process .work-card-text {
     font-size: 1rem;
+  }
+
+  /* portfolio section styles  */
+  #portfolio {
+    margin-top: 75px;
+    background-color: transparent;
   }
 }
 
