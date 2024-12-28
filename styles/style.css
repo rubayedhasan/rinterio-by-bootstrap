@@ -152,6 +152,23 @@ nav .navbar-brand {
   left: -60px;
 }
 
+/* count section  */
+#count {
+  margin-top: 100px;
+}
+#count .count-cards {
+  padding: 32px;
+}
+#count .count-card-title {
+  color: #494949;
+  font-size: 2.5rem;
+}
+#count .count-card-description {
+  color: #737373;
+  font-size: 1.125rem;
+  line-height: 26px;
+}
+
 /* responsive styles for all devices  */
 /* xs devices */
 @media screen and (max-width: 575.98px) {
@@ -214,6 +231,23 @@ nav .navbar-brand {
   .business-description .card-body .card-text {
     font-size: 0.875rem;
   }
+
+  /* count section  */
+  #count {
+    margin-top: 40px;
+  }
+  #count .count-cards {
+    padding: 24px;
+  }
+  #count .count-card {
+    margin-bottom: 32px;
+  }
+  #count .count-card-title {
+    font-size: 2rem;
+  }
+  #count .count-card-description {
+    font-size: 1rem;
+  }
 }
 
 /* sm devices  */
@@ -275,6 +309,23 @@ nav .navbar-brand {
   .business-description .card-body .card-text {
     font-size: 0.875rem;
   }
+
+  /* count section  */
+  #count {
+    margin-top: 40px;
+  }
+  #count .count-cards {
+    padding: 24px;
+  }
+  #count .count-card {
+    margin-bottom: 32px;
+  }
+  #count .count-card-title {
+    font-size: 2rem;
+  }
+  #count .count-card-description {
+    font-size: 1rem;
+  }
 }
 
 /* md devices  */
@@ -328,6 +379,23 @@ nav .navbar-brand {
     font-size: 1.125rem;
   }
   .business-description .card-body .card-text {
+    font-size: 1rem;
+  }
+
+  /* count section  */
+  #count {
+    margin-top: 75px;
+  }
+  #count .count-cards {
+    padding: 24px;
+  }
+  #count .count-card {
+    margin-bottom: 25px;
+  }
+  #count .count-card-title {
+    font-size: 2rem;
+  }
+  #count .count-card-description {
     font-size: 1rem;
   }
 }
