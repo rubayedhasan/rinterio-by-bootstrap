@@ -47,6 +47,18 @@ body {
   padding: 12px;
 }
 
+.section-title {
+  color: #212121;
+  font-size: 2.5rem;
+}
+
+.section-description {
+  color: #494949;
+  font-size: 1.125rem;
+  line-height: 26px;
+  margin-top: 24px;
+}
+
 /* header section styles  */
 header {
   padding: 50px 0 100px;
@@ -114,6 +126,15 @@ nav .navbar-brand {
   margin-bottom: 0;
 }
 
+/* about us section styles  */
+#about-us {
+  padding-top: 100px;
+}
+#about-us .intro-btn {
+  color: #494949;
+  font-size: 1.125rem;
+}
+
 /* responsive styles for all devices  */
 /* xs devices */
 @media screen and (max-width: 575.98px) {
@@ -149,6 +170,11 @@ nav .navbar-brand {
     width: 100%;
     justify-content: center;
   }
+
+  /* about-us section styles  */
+  #about-us {
+    padding-top: 40px;
+  }
 }
 
 /* sm devices  */
@@ -183,6 +209,11 @@ nav .navbar-brand {
     width: 100%;
     justify-content: center;
   }
+
+  /* about us section styles  */
+  #about-us {
+    padding-top: 40px;
+  }
 }
 
 /* md devices  */
@@ -208,6 +239,11 @@ nav .navbar-brand {
   #banner .banner-description {
     width: 95%;
     margin: 0 auto 25px;
+  }
+
+  /* about-us section styles  */
+  #about-us {
+    padding-top: 75px;
   }
 }
 
