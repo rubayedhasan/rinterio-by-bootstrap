@@ -135,6 +135,17 @@ nav .navbar-brand {
   font-size: 1.125rem;
 }
 
+.business-description .card-body .card-title {
+  color: #494949;
+  font-size: 1.25rem;
+  line-height: 26px;
+}
+.business-description .card-body .card-text {
+  color: #737373;
+  font-size: 1.125rem;
+  line-height: 26px;
+}
+
 /* responsive styles for all devices  */
 /* xs devices */
 @media screen and (max-width: 575.98px) {
