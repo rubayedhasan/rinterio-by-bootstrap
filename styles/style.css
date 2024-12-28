@@ -169,10 +169,51 @@ nav .navbar-brand {
   line-height: 26px;
 }
 
+/* work process section styles  */
+#work-process {
+  margin-top: 100px;
+}
+#work-process .col {
+  width: 24%;
+}
+#work-process .card-concept,
+#work-process .card-design,
+#work-process .card-vision,
+#work-process .card-planning {
+  padding: 32px;
+}
+#work-process .card-concept {
+  background: #e7c1d3;
+}
+#work-process .card-design {
+  background: #efda6e;
+}
+#work-process .card-vision {
+  background: #a4dac3;
+}
+#work-process .card-planning {
+  background: #77aaea;
+}
+#work-process .work-card-title {
+  color: #1c1c1c;
+  font-size: 1.25rem;
+  line-height: 26px;
+}
+#work-process .work-card-text {
+  color: #494949;
+  font-size: 1.125rem;
+  line-height: 26px;
+}
+
 /* responsive styles for all devices  */
 /* xs devices */
 @media screen and (max-width: 575.98px) {
   /* shared styles  */
+  header,
+  main,
+  footer {
+    padding: 0 30px;
+  }
   .section-title {
     font-size: 1.5rem;
   }
@@ -246,6 +287,23 @@ nav .navbar-brand {
     font-size: 2rem;
   }
   #count .count-card-description {
+    font-size: 1rem;
+  }
+
+  /* work process section styles  */
+  #work-process {
+    margin-top: 40px;
+  }
+  #work-process .col {
+    width: 100%;
+  }
+  #work-process .card-concept,
+  #work-process .card-design,
+  #work-process .card-vision,
+  #work-process .card-planning {
+    padding: 24px;
+  }
+  #work-process .work-card-text {
     font-size: 1rem;
   }
 }
@@ -326,6 +384,23 @@ nav .navbar-brand {
   #count .count-card-description {
     font-size: 1rem;
   }
+  /* work process section styles  */
+  #work-process {
+    margin-top: 40px;
+  }
+  #work-process .col {
+    width: 100%;
+  }
+
+  #work-process .card-concept,
+  #work-process .card-design,
+  #work-process .card-vision,
+  #work-process .card-planning {
+    padding: 24px;
+  }
+  #work-process .work-card-text {
+    font-size: 1rem;
+  }
 }
 
 /* md devices  */
@@ -398,10 +473,30 @@ nav .navbar-brand {
   #count .count-card-description {
     font-size: 1rem;
   }
+  /* work process section styles  */
+  #work-process {
+    margin-top: 75px;
+  }
+  #work-process .col {
+    width: 48%;
+  }
+  #work-process .card-concept,
+  #work-process .card-design,
+  #work-process .card-vision,
+  #work-process .card-planning {
+    padding: 24px;
+  }
+  #work-process .work-card-text {
+    font-size: 1rem;
+  }
 }
 
 /* lg devices  */
 @media screen and (min-width: 992px) and (max-width: 1199.9px) {
+  /* work process section styles  */
+  #work-process .col {
+    width: 48%;
+  }
 }
 
 /* xl devices  */
