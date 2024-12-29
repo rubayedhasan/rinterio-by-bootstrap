@@ -251,6 +251,17 @@ nav .navbar-brand {
 #read-news {
   margin-top: 100px;
 }
+/* read our news section styles  */
+#newsletter {
+  margin-top: 100px;
+  padding: 100px 0;
+  background-image: url("../images/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-top: 5px solid #ffffff;
+  border-bottom: 5px solid #ffffff;
+}
 
 /* responsive styles for all devices  */
 /* xs devices */
@@ -383,6 +394,10 @@ nav .navbar-brand {
   #read-news {
     margin-top: 40px;
   }
+  #newsletter {
+    margin-top: 40px;
+    padding: 40px 0;
+  }
 }
 
 /* sm devices  */
@@ -507,6 +522,10 @@ nav .navbar-brand {
   #read-news {
     margin-top: 40px;
   }
+  #newsletter {
+    margin-top: 40px;
+    padding: 40px 0;
+  }
 }
 
 /* md devices  */
@@ -628,6 +647,10 @@ nav .navbar-brand {
   /* read our news section styles  */
   #read-news {
     margin-top: 75px;
+  }
+  #newsletter {
+    margin-top: 75px;
+    padding: 75px 0;
   }
 }
 
