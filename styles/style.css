@@ -263,6 +263,14 @@ nav .navbar-brand {
   border-bottom: 5px solid #ffffff;
 }
 
+.submit-btn {
+  font-size: 1.25rem;
+  background-color: rgba(171, 239, 95, 1);
+}
+.submit-btn:hover {
+  background-color: rgba(171, 239, 95, 0.8);
+}
+
 /* responsive styles for all devices  */
 /* xs devices */
 @media screen and (max-width: 575.98px) {
