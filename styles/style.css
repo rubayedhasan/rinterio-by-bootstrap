@@ -248,7 +248,8 @@ nav .navbar-brand {
 }
 
 /* read our news section styles  */
-#read-news {
+#read-news,
+#faq {
   margin-top: 100px;
 }
 /* read our news section styles  */
@@ -408,7 +409,8 @@ footer {
   }
 
   /* read our news section styles  */
-  #read-news {
+  #read-news,
+  #faq {
     margin-top: 40px;
   }
 
@@ -543,7 +545,8 @@ footer {
   }
 
   /* read our news section styles  */
-  #read-news {
+  #read-news,
+  #faq {
     margin-top: 40px;
   }
   /* newsletter section  */
@@ -675,7 +678,8 @@ footer {
   }
 
   /* read our news section styles  */
-  #read-news {
+  #read-news,
+  #faq {
     margin-top: 75px;
   }
 
