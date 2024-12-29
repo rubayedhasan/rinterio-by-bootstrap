@@ -216,6 +216,10 @@ nav .navbar-brand {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   gap: 20px;
+  /* place-items: center;
+  place-content: center;
+  justify-content: center;
+  align-items: center; */
 }
 .portfolio-cards .portfolio-card-1 {
   grid-column: 1 / span 8;
@@ -360,7 +364,7 @@ nav .navbar-brand {
   .portfolio-cards .portfolio-card-4,
   .portfolio-cards .portfolio-card-5,
   .portfolio-cards .portfolio-card-6 {
-    grid-column: 1 / 12;
+    grid-column: 1 / -1;
   }
 
   .portfolio-cards .port-card-title {
@@ -479,7 +483,7 @@ nav .navbar-brand {
   .portfolio-cards .portfolio-card-4,
   .portfolio-cards .portfolio-card-5,
   .portfolio-cards .portfolio-card-6 {
-    grid-column: 1 / 12;
+    grid-column: 1 / -1;
   }
 
   .portfolio-cards .port-card-title {
