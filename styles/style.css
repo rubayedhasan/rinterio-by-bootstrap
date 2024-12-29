@@ -263,12 +263,21 @@ nav .navbar-brand {
   border-bottom: 5px solid #ffffff;
 }
 
-.submit-btn {
+.submit-btn,
+.foot-btn {
   font-size: 1.25rem;
   background-color: rgba(171, 239, 95, 1);
 }
-.submit-btn:hover {
+.submit-btn:hover,
+.foot-btn:hover {
   background-color: rgba(171, 239, 95, 0.8);
+}
+
+/* footer section styles  */
+footer {
+  color: #fff;
+  padding: 100px 0;
+  background: #000;
 }
 
 /* responsive styles for all devices  */
@@ -402,8 +411,15 @@ nav .navbar-brand {
   #read-news {
     margin-top: 40px;
   }
+
+  /* newsletter section  */
   #newsletter {
     margin-top: 40px;
+    padding: 40px 0;
+  }
+
+  /* footer section  */
+  footer {
     padding: 40px 0;
   }
 }
@@ -530,8 +546,14 @@ nav .navbar-brand {
   #read-news {
     margin-top: 40px;
   }
+  /* newsletter section  */
   #newsletter {
     margin-top: 40px;
+    padding: 40px 0;
+  }
+
+  /* footer section  */
+  footer {
     padding: 40px 0;
   }
 }
@@ -656,8 +678,15 @@ nav .navbar-brand {
   #read-news {
     margin-top: 75px;
   }
+
+  /* newsletter section  */
   #newsletter {
     margin-top: 75px;
+    padding: 75px 0;
+  }
+
+  /* footer section  */
+  footer {
     padding: 75px 0;
   }
 }
