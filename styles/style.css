@@ -212,6 +212,41 @@ nav .navbar-brand {
   background-color: #ffffff;
 }
 
+.portfolio-cards {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 20px;
+}
+.portfolio-cards .portfolio-card-1 {
+  grid-column: 1 / span 8;
+}
+.portfolio-cards .portfolio-card-2 {
+  grid-column: 9 / span 4;
+}
+.portfolio-cards .portfolio-card-4 {
+  grid-column: 1 / span 2;
+}
+.portfolio-cards .portfolio-card-5 {
+  grid-column: 3 / span 8;
+}
+.portfolio-cards .portfolio-card-6 {
+  grid-column: 11 / span 2;
+}
+
+.portfolio-cards .port-card-title {
+  color: #494949;
+  font-size: 1.5rem;
+}
+
+.portfolio-cards .port-card-text {
+  color: #737373;
+  font-size: 1.125rem;
+}
+.portfolio-cards .read-more-btn {
+  color: #212121;
+  font-size: 1.25rem;
+}
+
 /* responsive styles for all devices  */
 /* xs devices */
 @media screen and (max-width: 575.98px) {
@@ -319,6 +354,25 @@ nav .navbar-brand {
     background-color: transparent;
     margin-top: 40px;
   }
+  .portfolio-cards .portfolio-card-1,
+  .portfolio-cards .portfolio-card-2,
+  .portfolio-cards .portfolio-card-3,
+  .portfolio-cards .portfolio-card-4,
+  .portfolio-cards .portfolio-card-5,
+  .portfolio-cards .portfolio-card-6 {
+    grid-column: 1 / 12;
+  }
+
+  .portfolio-cards .port-card-title {
+    font-size: 1.125rem;
+  }
+
+  .portfolio-cards .port-card-text {
+    font-size: 1rem;
+  }
+  .portfolio-cards .read-more-btn {
+    font-size: 1.125rem;
+  }
 }
 
 /* sm devices  */
@@ -419,6 +473,25 @@ nav .navbar-brand {
     margin-top: 40px;
     background-color: transparent;
   }
+  .portfolio-cards .portfolio-card-1,
+  .portfolio-cards .portfolio-card-2,
+  .portfolio-cards .portfolio-card-3,
+  .portfolio-cards .portfolio-card-4,
+  .portfolio-cards .portfolio-card-5,
+  .portfolio-cards .portfolio-card-6 {
+    grid-column: 1 / 12;
+  }
+
+  .portfolio-cards .port-card-title {
+    font-size: 1.125rem;
+  }
+
+  .portfolio-cards .port-card-text {
+    font-size: 1rem;
+  }
+  .portfolio-cards .read-more-btn {
+    font-size: 1.125rem;
+  }
 }
 
 /* md devices  */
@@ -512,6 +585,29 @@ nav .navbar-brand {
   #portfolio {
     margin-top: 75px;
     background-color: transparent;
+  }
+  .portfolio-cards .portfolio-card-1,
+  .portfolio-cards .portfolio-card-5 {
+    grid-column: 1 / span 12;
+  }
+  .portfolio-cards .portfolio-card-2,
+  .portfolio-cards .portfolio-card-4 {
+    grid-column: 1 / span 6;
+  }
+  .portfolio-cards .portfolio-card-3,
+  .portfolio-cards .portfolio-card-6 {
+    grid-column: 7 / span 6;
+  }
+
+  .portfolio-cards .port-card-title {
+    font-size: 1.125rem;
+  }
+
+  .portfolio-cards .port-card-text {
+    font-size: 1rem;
+  }
+  .portfolio-cards .read-more-btn {
+    font-size: 1.125rem;
   }
 }
 
