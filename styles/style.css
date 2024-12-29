@@ -242,7 +242,7 @@ nav .navbar-brand {
   color: #737373;
   font-size: 1.125rem;
 }
-.portfolio-cards .read-more-btn {
+.read-more-btn {
   color: #212121;
   font-size: 1.25rem;
 }
@@ -375,7 +375,7 @@ nav .navbar-brand {
   .portfolio-cards .port-card-text {
     font-size: 1rem;
   }
-  .portfolio-cards .read-more-btn {
+  .read-more-btn {
     font-size: 1.125rem;
   }
 
@@ -499,7 +499,7 @@ nav .navbar-brand {
   .portfolio-cards .port-card-text {
     font-size: 1rem;
   }
-  .portfolio-cards .read-more-btn {
+  .read-more-btn {
     font-size: 1.125rem;
   }
 
@@ -621,7 +621,7 @@ nav .navbar-brand {
   .portfolio-cards .port-card-text {
     font-size: 1rem;
   }
-  .portfolio-cards .read-more-btn {
+  .read-more-btn {
     font-size: 1.125rem;
   }
 
